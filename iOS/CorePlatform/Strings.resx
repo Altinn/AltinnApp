@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContactController_BodyBottom" xml:space="preserve">
+    <value>If you need help with contents of a service, you can contact the agency who sent the message or form.</value>
+  </data>
+  <data name="ContactController_BodyBottomHeader" xml:space="preserve">
+    <value>Content user support</value>
+  </data>
+  <data name="ContactController_BodyTop" xml:space="preserve">
+    <value>If you need help with logging in, or other technical questions about using the app, you can contact Altinn support by telephone or e-mail:</value>
+  </data>
+  <data name="ContactController_BodyTopHeader" xml:space="preserve">
+    <value>Altinn support</value>
+  </data>
+  <data name="ContactController_Header" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="CorrespondenceController_Header" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="CorrespondenceController_Open" xml:space="preserve">
+    <value>Open </value>
+  </data>
+  <data name="CorrespondenceController_SendToMail" xml:space="preserve">
+    <value>Forward message by e-mail</value>
+  </data>
+  <data name="FeedbackController_Body" xml:space="preserve">
+    <value>We would like to hear any comments you might have on the app. It might be regarding new functionality or comments to existing functionality and design.</value>
+  </data>
+  <data name="FeedbackController_BodyHeader" xml:space="preserve">
+    <value>We value your opinions</value>
+  </data>
+  <data name="FeedbackController_Header" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FlyoutController_Actor" xml:space="preserve">
+    <value>Change actor </value>
+  </data>
+  <data name="FlyoutController_LogoutButton" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="FormController_Header" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="LoginController_CurrentLanguage" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LoginController_Infobox" xml:space="preserve">
+    <value>Log in using ID-Porten (MinID and BankID).</value>
+  </data>
+  <data name="LoginController_Loginbutton" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="MessageboxController_ArchiveHeader" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="MessageboxController_InboxHeader" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="Message_Infobox" xml:space="preserve">
+    <value>You only have read access.
+Changes must be made at altinn.no</value>
+  </data>
+  <data name="Message_LastChanged" xml:space="preserve">
+    <value>Last changed:</value>
+  </data>
+  <data name="Message_LastChangedBy" xml:space="preserve">
+    <value>Last changed by: </value>
+  </data>
+  <data name="Message_Print" xml:space="preserve">
+    <value>Open read version of
+temporary filled out form</value>
+  </data>
+  <data name="Message_Recipient" xml:space="preserve">
+    <value>Receiver: </value>
+  </data>
+  <data name="Message_Sender" xml:space="preserve">
+    <value>Sender: </value>
+  </data>
+  <data name="Misc_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Misc_Lang_Bokmaal" xml:space="preserve">
+    <value>Bokmål</value>
+  </data>
+  <data name="Misc_Lang_English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Misc_Lang_Nynorsk" xml:space="preserve">
+    <value>Nynorsk</value>
+  </data>
+  <data name="Misc_SearchboxPlaceholder" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Popup_SelectLanguage" xml:space="preserve">
+    <value>Select language:</value>
+  </data>
+  <data name="ReporteeController_Header" xml:space="preserve">
+    <value>Actor</value>
+  </data>
+  <data name="SettingsController_Header" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SettingsController_LanguageSelection" xml:space="preserve">
+    <value>Select language</value>
+  </data>
+  <data name="Error_GeneralError" xml:space="preserve">
+    <value>Could not complete the selected action, please try again.</value>
+  </data>
+  <data name="Error_InsufficientAuthorization" xml:space="preserve">
+    <value>Your security level is too low for this message, to read it you have to log in with {0}</value>
+  </data>
+  <data name="Error_PrintError" xml:space="preserve">
+    <value>Could not process print or attachment.</value>
+  </data>
+  <data name="Error_TimedOut" xml:space="preserve">
+    <value>You have been logged out, please login to continue</value>
+  </data>
+  <data name="Error_MessageInternalServerError" xml:space="preserve">
+    <value>An error occured, please try again</value>
+  </data>
+  <data name="InfoscreenController_Body1" xml:space="preserve">
+    <value>Read received messages</value>
+    <comment>Lese mottatte meldinger</comment>
+  </data>
+  <data name="InfoscreenController_Body2" xml:space="preserve">
+    <value>Open read versions of filled out forms</value>
+    <comment>Åpne leseversjon av utfylte skjema</comment>
+  </data>
+  <data name="InfoscreenController_Body3" xml:space="preserve">
+    <value>Open archived messages and forms                                         </value>
+    <comment>Åpne arkiverte meldinger og innsendte skjema i arkivet</comment>
+  </data>
+  <data name="InfoscreenController_Body4" xml:space="preserve">
+    <value>Fill out forms and services</value>
+    <comment>Fylle ut skjema og tenester</comment>
+  </data>
+  <data name="InfoscreenController_Body5" xml:space="preserve">
+    <value>Send in forms and services</value>
+    <comment>Sende inn skjema og tenester</comment>
+  </data>
+  <data name="InfoscreenController_Bottom" xml:space="preserve">
+    <value>We continiously work on improving Altinn on mobile platforms and in time we will offer more functionality.</value>
+    <comment>Vi jobber kontinuerlig med å forbetre Altinn på mobile plattformar og på sikt vil vi nok kunne tilby fleire funksjonalitetar.</comment>
+  </data>
+  <data name="InfoscreenController_Continue" xml:space="preserve">
+    <value>Continue</value>
+    <comment>Fortsett</comment>
+  </data>
+  <data name="InfoscreenController_HeaderBottom" xml:space="preserve">
+    <value>You can not...</value>
+    <comment>Du kan ikkje...</comment>
+  </data>
+  <data name="InfoscreenController_HeaderTop" xml:space="preserve">
+    <value>With the Altinn app you can...</value>
+    <comment>Med Altinn-appen kan du…</comment>
+  </data>
+  <data name="InfoscreenController_Intro" xml:space="preserve">
+    <value>This app currently only gives read access to your contents in Altinn.</value>
+    <comment>Denne appen gir foreløpig kun lesetilgang til innholdet ditt i Altinn.</comment>
+  </data>
+  <data name="CorrespondenceController_CannotForward" xml:space="preserve">
+    <value>Can not forward this message</value>
+  </data>
+  <data name="Message_OnlyAttachmentMessage" xml:space="preserve">
+    <value>This message only has attachment</value>
+  </data>
+  <data name="Error_MissingFBApp" xml:space="preserve">
+    <value>You have to have the app installed to open</value>
+    <comment>Du må ha appen installert for å åpne</comment>
+  </data>
+  <data name="Message_Archived" xml:space="preserve">
+    <value>Open archived form</value>
+  </data>
+  <data name="Message_ArchivedAltinn1" xml:space="preserve">
+    <value>Archived submission can not be opened in this app</value>
+  </data>
+  <data name="ContactController_MailTitle" xml:space="preserve">
+    <value>Altinn app help</value>
+  </data>
+  <data name="FeedbackController_MailTitle" xml:space="preserve">
+    <value>Altinn app feedback</value>
+  </data>
+  <data name="LoginWebController_Header" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Message_Status_Fillout" xml:space="preserve">
+    <value>Completion</value>
+  </data>
+  <data name="Message_Status_Opened" xml:space="preserve">
+    <value>Opened</value>
+  </data>
+  <data name="Message_Status_Read" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="Message_Status_Sent" xml:space="preserve">
+    <value>Sent and archived</value>
+  </data>
+  <data name="Message_Status_SentCorres" xml:space="preserve">
+    <value>Archived</value>
+  </data>
+  <data name="Message_Status_Signering" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+  <data name="Message_Status_Unread" xml:space="preserve">
+    <value>Unread</value>
+  </data>
+</root>

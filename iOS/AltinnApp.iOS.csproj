@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{DFE26D84-DF4D-4401-993F-E8C973145501}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AltinnApp.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>AltinnAppiOS</AssemblyName>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ReleaseVersion>1</ReleaseVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <ConsolePause>false</ConsolePause>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchArch>Default, ARMv7</MtouchArch>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n>west</MtouchI18n>
+    <MtouchSdkVersion>7.1</MtouchSdkVersion>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchExtraArgs />
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchEnableGenericValueTypeSharing>True</MtouchEnableGenericValueTypeSharing>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <ConsolePause>false</ConsolePause>
+    <MtouchSdkVersion>6.1</MtouchSdkVersion>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchDebug>true</MtouchDebug>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Distribution: Bronnoysundregistrene (23EB59QV2Z)</CodesignKey>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Distribution: Bronnoysundregistrene (23EB59QV2Z)</CodesignKey>
+    <ConsolePause>false</ConsolePause>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+    <BuildIpa>True</BuildIpa>
+    <IpaPackageName>
+    </IpaPackageName>
+    <CodesignProvision>8F7E6682-E6B3-44C2-9880-901A88B7A571</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Distribution: Morten Kolbjornsen (82V4EF7A2D)</CodesignKey>
+    <BuildIpa>true</BuildIpa>
+    <ConsolePause>false</ConsolePause>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+    <IpaPackageName>
+    </IpaPackageName>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Distribution: Bronnoysundregistrene (23EB59QV2Z)</CodesignKey>
+    <ConsolePause>false</ConsolePause>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+    <CodesignProvision>8F7E6682-E6B3-44C2-9880-901A88B7A571</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AltinnApp.iOS.Application</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BTProgressHUD">
+      <HintPath>Components\btprogresshud-1.9\lib\ios\BTProgressHUD.dll</HintPath>
+    </Reference>
+    <Reference Include="SWRevealViewControllerBinding">
+      <HintPath>Lib\SWRevealViewControllerBinding.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\iPhone\Release\AltinnAppiOS-6.ipa" />
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Settings.StyleCop" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CorePlatform\Translate.cs" />
+    <Compile Include="FlyoutTablesource.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="MessageboxController.cs" />
+    <Compile Include="MessageboxController.designer.cs">
+      <DependentUpon>MessageboxController.cs</DependentUpon>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="AttachmentController.cs" />
+    <Compile Include="AttachmentController.designer.cs">
+      <DependentUpon>AttachmentController.cs</DependentUpon>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="LoginController.cs" />
+    <Compile Include="LoginWebController.cs" />
+    <Compile Include="LoginController.designer.cs">
+      <DependentUpon>LoginController.cs</DependentUpon>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="LoginWebController.designer.cs">
+      <DependentUpon>LoginWebController.cs</DependentUpon>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="ReporteeController.cs" />
+    <Compile Include="ReporteeController.designer.cs">
+      <DependentUpon>ReporteeController.cs</DependentUpon>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="CorePlatform\PlattformDAL.cs" />
+    <Compile Include="Util\NativeUrlDelegate.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Util\Reachability.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Util\Util.cs" />
+    <Compile Include="CorrespondenceViewController.cs" />
+    <Compile Include="CorrespondenceViewController.designer.cs">
+      <DependentUpon>CorrespondenceViewController.cs</DependentUpon>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="FormViewController.cs" />
+    <Compile Include="FormViewController.designer.cs">
+      <DependentUpon>FormViewController.cs</DependentUpon>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="CorePlatform\PlattformService.cs" />
+    <Compile Include="FlyoutController.cs" />
+    <Compile Include="FlyoutController.designer.cs">
+      <DependentUpon>FlyoutController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeedbackController.cs" />
+    <Compile Include="FeedbackController.designer.cs">
+      <DependentUpon>FeedbackController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactController.cs" />
+    <Compile Include="ContactController.designer.cs">
+      <DependentUpon>ContactController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsController.cs" />
+    <Compile Include="SettingsController.designer.cs">
+      <DependentUpon>SettingsController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs" />
+    <Compile Include="Language.designer.cs">
+      <DependentUpon>Language.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageCell.cs" />
+    <Compile Include="MessageCell.designer.cs">
+      <DependentUpon>MessageCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorePlatform\Resources.nn-NO.Designer.cs">
+      <DependentUpon>Strings.nn-NO.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CorePlatform\Resources.nb-NO.Designer.cs">
+      <DependentUpon>Strings.nb-NO.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="CorePlatform\Resources.Designer.cs">
+      <DependentUpon>Strings.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SettingsCell.cs" />
+    <Compile Include="SettingsCell.designer.cs">
+      <DependentUpon>SettingsCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoscreenController.cs" />
+    <Compile Include="InfoscreenController.designer.cs">
+      <DependentUpon>InfoscreenController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlyoutTableview.cs" />
+    <Compile Include="FlyoutTableview.designer.cs">
+      <DependentUpon>FlyoutTableview.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="btprogresshud">
+      <Version>1.9</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CorePlatform\Strings.nn-NO.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.nn-NO.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorePlatform\Strings.nb-NO.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.nb-NO.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorePlatform\Strings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lib\SWRevealViewControllerBinding.dll" />
+    <Content Include="Lib\SWRevealViewControllerBinding.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <BundleResource Include="Resources\Attachment-OpenWith2.png" />
+    <BundleResource Include="Resources\Attachment-OpenWith2%402x.png" />
+    <BundleResource Include="Resources\Back-gold.png" />
+    <BundleResource Include="Resources\Back-gold%402x.png" />
+    <BundleResource Include="Resources\Contact-Facebook.png" />
+    <BundleResource Include="Resources\Contact-Facebook%402x.png" />
+    <BundleResource Include="Resources\Contact-Twitter.jpg" />
+    <BundleResource Include="Resources\Contact-Twitter%402x.jpg" />
+    <BundleResource Include="Resources\Contact-mail.png" />
+    <BundleResource Include="Resources\Contact-mail%402x.png" />
+    <BundleResource Include="Resources\Contact-tlf.png" />
+    <BundleResource Include="Resources\Contact-tlf%402x.png" />
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\Forward-gold.png" />
+    <BundleResource Include="Resources\Forward-gold%402x.png" />
+    <BundleResource Include="Resources\Infoscreen-Grey_checked.png" />
+    <BundleResource Include="Resources\Infoscreen-Grey_checked%402x.png" />
+    <BundleResource Include="Resources\Infoscreen-Grey_cross.png" />
+    <BundleResource Include="Resources\Infoscreen-Grey_cross%402x.png" />
+    <BundleResource Include="Resources\Login-Innboks_lines.png" />
+    <BundleResource Include="Resources\Login-Innboks_lines%402x.png" />
+    <BundleResource Include="Resources\Login-Settings_language.png" />
+    <BundleResource Include="Resources\Login-Settings_language%402x.png" />
+    <BundleResource Include="Resources\Login-altinn_logo_HVIT.png" />
+    <BundleResource Include="Resources\Login-altinn_logo_HVIT%402x.png" />
+    <BundleResource Include="Resources\Login-bakgrunn.png" />
+    <BundleResource Include="Resources\Login-bakgrunn%402x.png" />
+    <BundleResource Include="Resources\Login_button.png" />
+    <BundleResource Include="Resources\Login_button%402x.png" />
+    <BundleResource Include="Resources\Menu_Innboks_forward-%402x.png" />
+    <BundleResource Include="Resources\Menu_Innboks_forward.png" />
+    <BundleResource Include="Resources\Menu_archive.png" />
+    <BundleResource Include="Resources\Menu_archive%402x.png" />
+    <BundleResource Include="Resources\Menu_inbox.png" />
+    <BundleResource Include="Resources\Menu_inbox%402x.png" />
+    <BundleResource Include="Resources\Menu_kontakt.png" />
+    <BundleResource Include="Resources\Menu_kontakt%402x.png" />
+    <BundleResource Include="Resources\Menu_logout_button.png" />
+    <BundleResource Include="Resources\Menu_logout_buttonh%402x.png" />
+    <BundleResource Include="Resources\Menu_representing_actor.png" />
+    <BundleResource Include="Resources\Menu_representing_actor%402x.png" />
+    <BundleResource Include="Resources\Menu_settings.png" />
+    <BundleResource Include="Resources\Menu_settings%402x.png" />
+    <BundleResource Include="Resources\Menu_star.png" />
+    <BundleResource Include="Resources\Menu_star%402x.png" />
+    <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Resources\Icon%402x.png" />
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+    <BundleResource Include="Resources\Flyout.png" />
+    <BundleResource Include="Resources\Flyout%402x.png" />
+    <BundleResource Include="Resources\Message-Corres-Forward.png" />
+    <BundleResource Include="Resources\Message-Corres-Forward%402x.png" />
+    <BundleResource Include="Resources\Message-Corres-PDF.png" />
+    <BundleResource Include="Resources\Message-Corres-PDF%402x.png" />
+    <BundleResource Include="Resources\Message-Form-Info.png" />
+    <BundleResource Include="Resources\Message-Form-Info%402x.png" />
+    <BundleResource Include="Resources\Message-Form-PDF.png" />
+    <BundleResource Include="Resources\Message-Form-PDF%402x.png" />
+    <BundleResource Include="Resources\Messagebox-SearchBackground.png" />
+    <BundleResource Include="Resources\Messagebox-Unread-Form.png" />
+    <BundleResource Include="Resources\Messagebox-Unread-Form%402x.png" />
+    <BundleResource Include="Resources\Messagebox-lines.png" />
+    <BundleResource Include="Resources\Messagebox-lines%402x.png" />
+    <BundleResource Include="Resources\Messagebox-opened_form.png" />
+    <BundleResource Include="Resources\Messagebox-opened_form%402x.png" />
+    <BundleResource Include="Resources\Messagebox-opened_message.png" />
+    <BundleResource Include="Resources\Messagebox-opened_message%402x.png" />
+    <BundleResource Include="Resources\Messagebox-unread_message.png" />
+    <BundleResource Include="Resources\Messagebox-unread_message%402x.png" />
+    <BundleResource Include="Settings.bundle\Root.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\AltinnApp.Core.csproj">
+      <Project>{4B51EB49-EC2D-4731-9E56-998F6640CEBA}</Project>
+      <Name>AltinnApp.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
